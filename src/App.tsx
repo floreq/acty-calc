@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import Settings from "./features/settings/pages/Settings";
 import Calc from "./features/calc/pages/Calc";
 import Guide from "./features/guide/components/Guide";
@@ -14,16 +14,16 @@ function App() {
 
   return (
     <Provider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path={"/acty-calc/"} Component={Language}></Route>
+          <Route path={"/"} Component={Language}></Route>
           <Route path={t("homepage")} Component={Calc}></Route>
           <Route path={t("settings")} Component={Settings}></Route>
           <Route path={t("guide")} Component={Guide}></Route>
           <Route path="*" Component={NotFound} />
         </Routes>
         <BottomNavigation />
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   );
 }

@@ -1,7 +1,7 @@
 const pages = {
-  homepage: "/acty-calc/pl",
-  settings: "/acty-calc/pl/ustawienia",
-  guide: "/acty-calc/pl/poradnik",
+  homepage: "/pl",
+  settings: "/pl/ustawienia",
+  guide: "/pl/poradnik",
 };
 
 export default pages;
