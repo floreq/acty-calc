@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/acty-calc/static/css/main.dd6122e5.css",
-    "main.js": "/acty-calc/static/js/main.5f683881.js",
+    "main.js": "/acty-calc/static/js/main.eb0da627.js",
     "static/js/787.aa157cc9.chunk.js": "/acty-calc/static/js/787.aa157cc9.chunk.js",
     "service-worker.js": "/acty-calc/service-worker.js",
     "index.html": "/acty-calc/index.html",
     "main.dd6122e5.css.map": "/acty-calc/static/css/main.dd6122e5.css.map",
-    "main.5f683881.js.map": "/acty-calc/static/js/main.5f683881.js.map",
+    "main.eb0da627.js.map": "/acty-calc/static/js/main.eb0da627.js.map",
     "787.aa157cc9.chunk.js.map": "/acty-calc/static/js/787.aa157cc9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd6122e5.css",
-    "static/js/main.5f683881.js"
+    "static/js/main.eb0da627.js"
   ]
 }
