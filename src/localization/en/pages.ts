@@ -1,7 +1,7 @@
 const pages = {
-  homepage: "/en",
-  settings: "/en/settings",
-  guide: "/en/guide",
+  homepage: "/acty-calc/en",
+  settings: "/acty-calc/en/settings",
+  guide: "/acty-calc/en/guide",
 };
 
 export default pages;

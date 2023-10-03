@@ -16,7 +16,7 @@ function App() {
     <Provider>
       <BrowserRouter>
         <Routes>
-          <Route path={"/"} Component={Language}></Route>
+          <Route path={"/acty-calc/"} Component={Language}></Route>
           <Route path={t("homepage")} Component={Calc}></Route>
           <Route path={t("settings")} Component={Settings}></Route>
           <Route path={t("guide")} Component={Guide}></Route>
