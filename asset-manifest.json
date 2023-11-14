@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/acty-calc/static/css/main.dd6122e5.css",
-    "main.js": "/acty-calc/static/js/main.eb0da627.js",
-    "static/js/787.aa157cc9.chunk.js": "/acty-calc/static/js/787.aa157cc9.chunk.js",
-    "service-worker.js": "/acty-calc/service-worker.js",
-    "index.html": "/acty-calc/index.html",
-    "main.dd6122e5.css.map": "/acty-calc/static/css/main.dd6122e5.css.map",
-    "main.eb0da627.js.map": "/acty-calc/static/js/main.eb0da627.js.map",
-    "787.aa157cc9.chunk.js.map": "/acty-calc/static/js/787.aa157cc9.chunk.js.map"
+    "main.css": "/static/css/main.dd6122e5.css",
+    "main.js": "/static/js/main.c5eb0686.js",
+    "static/js/787.aa157cc9.chunk.js": "/static/js/787.aa157cc9.chunk.js",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "main.dd6122e5.css.map": "/static/css/main.dd6122e5.css.map",
+    "main.c5eb0686.js.map": "/static/js/main.c5eb0686.js.map",
+    "787.aa157cc9.chunk.js.map": "/static/js/787.aa157cc9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd6122e5.css",
-    "static/js/main.eb0da627.js"
+    "static/js/main.c5eb0686.js"
   ]
 }
