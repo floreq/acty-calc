@@ -10,7 +10,7 @@ const BottomNavigation = () => {
   const getNavLinkClassName = ({ isActive }: { isActive: boolean }) => {
     return `${
       isActive ? "fill-accent-500" : "fill-base-100"
-    } hover:fill-accent-300 active:fill-accent-600 p-2 flex justify-center`;
+    } hover:fill-accent-300 active:fill-accent-600 p-4 flex justify-center`;
   };
 
   const iconProps = {
