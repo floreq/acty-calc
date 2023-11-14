@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Settings from "./features/settings/pages/Settings";
 import Calc from "./features/calc/pages/Calc";
 import Guide from "./features/guide/components/Guide";
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Provider>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path={"/"} Component={Language}></Route>
           <Route path={t("homepage")} Component={Calc}></Route>
@@ -23,7 +23,7 @@ function App() {
           <Route path="*" Component={NotFound} />
         </Routes>
         <BottomNavigation />
-      </HashRouter>
+      </BrowserRouter>
     </Provider>
   );
 }
